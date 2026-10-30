@@ -61,7 +61,7 @@ class WizardTest {
         evilWizard.mana = 3
         evilWizard.train()
 
-        assertEquals(10, evilWizard.mana)
+        assertEquals(10, evilWizard.spellPower)
         assertEquals(3, evilWizard.mana)
     }
 
